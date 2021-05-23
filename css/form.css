@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Libre Baskerville', serif;
+}
+.banner2{
+    background: url("/img/bg2.jpg") no-repeat;
+    height: 17vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    background: url("/img/bg2.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.container-form{
+    width: 80%;
+    background-color: ivory;
+    padding: 25px 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.container-form .title{
+    color: #1C2C59;
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+.container-form .title::before{
+    content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: tomato;
+	height: 3px;
+	box-sizing: border-box;
+	width: 70px;
+}
+.content form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0 12px 0;
+}
+form .user-details .input-box{
+    margin: 15px;
+    width: 400px;
+}
+form .input-box span.details{
+    color: #1C2C59;
+    display: block;
+    margin-bottom: 5px;
+}
+.user-details .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+    border-color: darkcyan;
+}
+
+button{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+@media(max-width: 584px){
+    .container-form{
+        max-width: 100%;
+    }
+    form .user-details .input-box{
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    form .category{
+        width: 100%;
+    }
+    .content form .user-details{
+        max-height: 300px;
+        overflow-y: scroll;
+    }
+    .user-details::-webkit-scrollbar{
+        width: 5px;
+    }
+}
+@media(max-width: 459px){
+    .container-form .content .category{
+        flex-direction: column;
+    }
+}

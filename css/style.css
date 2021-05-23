@@ -22,6 +22,19 @@
     background: #1C2C59;
 }
 
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+.mid-p{
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
 /* Content config */
 .content{
     max-width: 1250px;
@@ -92,6 +105,7 @@
 /* Content section */
 .about{
     padding: 30px 0;
+    background: ivory;
 }
 .about .title{
     font-size: 38px;
@@ -131,8 +145,6 @@ button{
     padding-left: 20px;
     padding-right: 20px;
     box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
-
-
     margin: 20px;
 }
 button:hover{
@@ -161,9 +173,6 @@ button:hover{
     }
 }
 @media (max-width: 868px) {
-/* body.disabled{
-    overflow: hidden;
-} */
     .icon{
         display: block;
     }
