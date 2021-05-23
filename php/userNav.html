@@ -1,0 +1,43 @@
+<!-- CSS file -->
+<link rel="stylesheet" href="/css/style.css">
+
+<!-- Font awesome 5  -->
+<script src="https://kit.fontawesome.com/ad580f92ec.js" crossorigin="anonymous"></script>
+
+<nav class="navbar">
+    <div class="content">
+        <div class="logo">
+            <a href="#">Evo Eatery.</a>
+        </div>
+        <ul class="menu-list">
+            <div class="icon cancel-btn">
+                <i class="fas fa-times"></i>
+            </div>
+            <li><a href="#">check cart</a></li>
+            <li><a href="#">logout</a></li>
+        </ul>
+        <div class="icon menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+</nav>
+
+<script>
+    const body = document.querySelector("body");
+    const navbar = document.querySelector(".navbar");
+    const menuBtn = document.querySelector(".menu-btn");
+    const cancelBtn = document.querySelector(".cancel-btn");
+    menuBtn.onclick = ()=>{
+      navbar.classList.add("show");
+      menuBtn.classList.add("hide");
+      body.classList.add("disabled");
+    }
+    cancelBtn.onclick = ()=>{
+      body.classList.remove("disabled");
+      navbar.classList.remove("show");
+      menuBtn.classList.remove("hide");
+    }
+    window.onscroll = ()=>{
+      this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+    }
+</script>

@@ -1,0 +1,62 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* Background banner */
+.banner2{
+    background: url("/img/bg2.jpg") no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+body{
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar{
+    display:none;
+}
+
+/* Custom selection */
+::selection{
+    color: white;
+    background: steelblue;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #353535;
+    font-size: 38px;
+    color: white;
+    box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    transition: all .5s;
+    overflow: hidden;
+
+    /* background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+}
+
+.card:hover{
+    box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+    transform: translateY(-3px) scale(1.1);
+}
+
+.basic-grid{
+    display: grid;
+    background: transparent;
+    background-color: transparent;
+    gap: 1rem;
+
+    grid-template-columns: repeat(3, minmax(240px, 1fr));
+}
