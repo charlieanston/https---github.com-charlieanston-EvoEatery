@@ -4,7 +4,7 @@
 /* Background banner */
 .banner2{
     background: url("/img/bg2.jpg") no-repeat;
-    height: 100vh;
+    height: 17vh;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -53,30 +53,39 @@ body{
 
 .user-container{
     display: grid;
+    gap: 1rem;
 
-    grid-template-columns: 1fr, 2fr;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+
+}
+.user-container h2{
+    margin: 20px;
+    text-decoration: underline;
 }
 .user-column{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    float: left;
     align-items: center;
     background: darkcyan;
+    color: white;
     overflow: hidden;
+    height: 83vh;
 }
 .profile-pic{
     width: 160px;
     height: 160px;
     border-radius: 50%;
     object-fit: cover;
+    box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
 }
 .info-column{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    float: right;
     align-items: center;
     color: steelblue;
-    /* height: 100%;
-    width: 100%; */
     overflow: hidden;
 }

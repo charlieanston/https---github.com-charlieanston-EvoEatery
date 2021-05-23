@@ -12,6 +12,7 @@
     <!-- CSS file -->
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/card.css">
+    <link rel="stylesheet" href="/css/footer.css">
 
     <!-- Font awesome 5  -->
     <script src="https://kit.fontawesome.com/ad580f92ec.js" crossorigin="anonymous"></script>
@@ -21,34 +22,31 @@
     <!-- Navbar -->
     <div id="nav"></div>
 
-    <div class="banner2">
-        
-    </div>
-        <!-- <div class="about">
-            <div class="content">
-                
-            </div>
-            
-        </div> -->
+    <!-- Banner -->
+    <div class="banner2"></div>
 
-    <div class="user-container">
+    <section class="user-container">
         <div class="user-column">
             <img src="/img/Appetiser/Easy-Smoked-Salmon.jpg" class="profile-pic">
-            <p>User Name</p>
+            <h2>User Name</h2>
         </div>
         <div class="info-column">
             <h2>Email address</h2>
             <p>start@emit.edu.vn</p>
             <h2>Phone</h2>
             <p>0912345678</p>
+            <button type="button">Edit Info.</button>
         </div>
-    </div>
+    </section>
+
+    <!-- Footer -->
+    <div id="footer"></div>
 
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <script>  
         $(function(){
-            $("#nav").load("/php/userNav.html");  
-            $("#footer").load("footer.html");
+            $("#nav").load("/assets/userNav.html");  
+            $("#footer").load("/assets/footer.html");
         }); 
     </script>
 </body>
