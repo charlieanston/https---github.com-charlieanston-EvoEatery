@@ -20,7 +20,7 @@ ul{
 	list-style: none;
 }
 .footer{
-	background-color: steelblue;
+	background-color: #1C2C59;
     padding: 20px 0;
 }
 .footer-col{
@@ -29,7 +29,7 @@ ul{
 }
 .footer-col h4{
 	font-size: 18px;
-	color: white;
+	color: ivory;
 	text-transform: capitalize;
 	margin-bottom: 35px;
 	font-weight: 500;
@@ -52,7 +52,7 @@ ul{
 	font-size: 14px;
 	text-transform: capitalize;
 	text-decoration: none;
-	color: white;
+	color: ivory;
 	display: block;
 	transition: all 0.3s ease;
 }
@@ -64,17 +64,17 @@ ul{
 	display: inline-block;
 	height: 40px;
 	width: 40px;
-	background-color: white;
+	background-color: ivory;
 	margin:0 10px 10px 0;
 	text-align: center;
 	line-height: 40px;
 	border-radius: 50%;
-	color: steelblue;
+	color: #1C2C59;
 	transition: all 0.5s ease;
 }
 .footer-col .social-links a:hover{
-	color: tomato;
-	background-color: lightgray;
+	color: ivory;
+	background-color: tomato;
 }
 
 /*responsive*/
