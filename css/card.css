@@ -10,7 +10,6 @@
     background-attachment: fixed;
 }
 body{
-    color: white;
     font-family: 'Libre Baskerville', serif;
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
@@ -52,11 +51,32 @@ body{
     transform: translateY(-3px) scale(1.1);
 }
 
-.basic-grid{
+.user-container{
     display: grid;
-    background: transparent;
-    background-color: transparent;
-    gap: 1rem;
 
-    grid-template-columns: repeat(3, minmax(240px, 1fr));
+    grid-template-columns: 1fr, 2fr;
+}
+.user-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: darkcyan;
+    overflow: hidden;
+}
+.profile-pic{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.info-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: steelblue;
+    /* height: 100%;
+    width: 100%; */
+    overflow: hidden;
 }
