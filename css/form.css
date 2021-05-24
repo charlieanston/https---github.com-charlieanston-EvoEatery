@@ -5,13 +5,6 @@
   box-sizing: border-box;
   font-family: 'Libre Baskerville', serif;
 }
-.banner2{
-    background: url("/img/bg2.jpg") no-repeat;
-    height: 17vh;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
 body{
     justify-content: center;
     align-items: center;
@@ -75,6 +68,19 @@ form .input-box span.details{
 .user-details .input-box input:focus,
 .user-details .input-box input:valid{
     border-color: darkcyan;
+}
+.user-details .input-box select{
+    -webkit-appearance: none;
+    
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
 }
 
 button{

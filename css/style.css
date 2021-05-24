@@ -52,6 +52,7 @@ p{
 /* Navbar design */
 .navbar{
     position: fixed;
+    background: #1C2C59;
     width: 100%;
     z-index: 2;
     padding: 25px 0;
@@ -101,6 +102,13 @@ p{
     background-position: center;
     background-attachment: fixed;
 }
+.banner2{
+    background: url("/img/bg2.jpg") no-repeat;
+    height: 17vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
 
 /* Content section */
 .about{
@@ -132,6 +140,15 @@ p{
     justify-content: center;
     font-size: 80px;
     font-style: italic;
+    color: #1C2C59;
+}
+.about h2{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-style: italic;
+    margin-bottom: 50px;
     color: #1C2C59;
 }
 

@@ -50,29 +50,47 @@
         <form action="#">
             <div class="user-details">
                 <div class="input-box">
-                    <span class="details">First name</span>
-                    <input type="text" placeholder="First name*" name="fname" id="fname" required>
+                    <span class="details">Full name</span>
+                    <input type="text" placeholder="Name*" name="name" id="name" required>
                 </div>
-                <div class="input-box">
-                    <span class="details">Last name</span>
-                    <input type="text" placeholder="Last name*" name="lname" id="lname" required>
-                </div>
-                <div class="input-box">
+                <!-- <div class="input-box">
                     <span class="details">Email</span>
                     <input type="email" placeholder="Email*" name="email" id="email" required>
-                </div>
+                </div> -->
                 <div class="input-box">
                     <span class="details">Phone number</span>
-                    <input type="tel" placeholder="Phone number*" name="phone" id="phone" required>
+                    <input type="tel" placeholder="Phone*" name="phone" id="phone" required>
                 </div>
                 <div class="input-box">
-                    <span class="details">Password</span>
-                    <input type="password" placeholder="Password*" name="password1" id="password1" required>
+                    <span class="details">Date</span>
+                    <input type="text" placeholder="Select a date*" onfocus="(this.type='date')" onblur="(this.type='text')"name="date" id="date" required>
                 </div>
                 <div class="input-box">
-                    <span class="details">Confirm Password</span>
-                    <input type="password" placeholder="Confirm password*" name="password2" id="password2" required>
+                    <span class="details">Time</span>
+                    <input type="text" placeholder="Select a time* (hr:min AM/PM)" onfocus="(this.type='time')" onblur="(this.type='text')"name="time" id="time" required>
                 </div>
+                <div class="input-box">
+                    <span class="details">Number of people</span>
+                    <select name="person" id="person" required>
+                        <option value="" disabled selected="selected">Number of people*</option>
+                        <option value="1person">1 person.</option>
+                        <option value="2persons">2 persons.</option>
+                        <option value="3persons">3 persons.</option>
+                        <option value="4persons">4 persons.</option>
+                        <option value="5persons">5 persons.</option>
+                        <option value="6persons">6 persons.</option>
+                    </select>
+                </div>
+                <div class="input-box">
+                    <span class="details">Location</span>
+                    <select name="location" id="location" required>
+                        <option value="" disabled selected="selected">Location*</option>
+                        <option value="evoLe">Evo Le Thanh Ton.</option>
+                        <option value="evoDong">Evo Dong Khoi.</option>
+                        <option value="evoThao">Evo Thao Dien.</option>
+                    </select>
+                </div>
+                
             </div>
             <button value="register">Submit.</button>
         </form>

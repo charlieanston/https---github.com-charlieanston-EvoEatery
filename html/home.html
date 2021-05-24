@@ -11,6 +11,7 @@
 
     <!-- CSS file -->
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/footer.css">
 
     <!-- Font awesome 5  -->
     <script src="https://kit.fontawesome.com/ad580f92ec.js" crossorigin="anonymous"></script>
@@ -60,15 +61,35 @@
     </div>
 
     <!-- Footer -->
-    <div id="footer"></div>
-
-    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-    <script>  
-        $(function(){
-            $("#nav").load("/assets/nav.html");  
-            $("#footer").load("/assets/footer.html");
-            $("#slides").load("/assets/slides.html");
-        }); 
-    </script>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">affiliate program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

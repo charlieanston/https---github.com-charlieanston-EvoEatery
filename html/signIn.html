@@ -12,6 +12,7 @@
     <!-- CSS file -->
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/form.css">
+    <link rel="stylesheet" href="/css/footer.css">
 
     <!-- Font awesome 5  -->
     <script src="https://kit.fontawesome.com/ad580f92ec.js" crossorigin="anonymous"></script>
@@ -19,7 +20,26 @@
 </head>
 <body>
     <!-- Navbar -->
-    <div id="nav"></div>
+    <nav class="navbar">
+        <div class="content">
+            <div class="logo">
+                <a href="#">Evo Eatery.</a>
+            </div>
+            <ul class="menu-list">
+                <div class="icon cancel-btn">
+                    <i class="fas fa-times"></i>
+                </div>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">menu</a></li>
+                <li><a href="#">locations</a></li>
+                <li><a href="#">reserve</a></li>
+                <li><a href="#">sign in</a></li>
+            </ul>
+            <div class="icon menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
 
     <!-- Background -->
     <div class="banner2"></div>
@@ -31,11 +51,11 @@
                 <div class="user-details">
                 <div class="input-box">
                     <span class="details">Email</span>
-                    <input type="text" placeholder="Email*" required>
+                    <input type="text" placeholder="Email*" name="email" id="email" required>
                 </div>
                 <div class="input-box">
                     <span class="details">Password</span>
-                    <input type="text" placeholder="Password*" required>
+                    <input type="text" placeholder="Password*"  name="password" id="password" required>
                 </div>
                 </div>
                 <button value="register" class="button">Submit.</button>
@@ -44,14 +64,35 @@
     </div>
 
     <!-- Footer -->
-    <div id="footer"></div>
-
-    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-    <script>  
-        $(function(){
-            $("#nav").load("/assets/nav.html");  
-            $("#footer").load("/assets/footer.html");
-        }); 
-    </script>
+    <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>company</h4>
+                <ul>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">affiliate program</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>get help</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">payment options</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
