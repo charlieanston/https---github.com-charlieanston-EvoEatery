@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Tab -->
+    <link rel="icon" href="/img/E.png">
+    <title>Evo Eatery</title>
+
+    <!-- CSS file -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/form.css">
+    <link rel="stylesheet" href="/css/footer.css">
+
+    <!-- Font awesome 5  -->
+    <script src="https://kit.fontawesome.com/ad580f92ec.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="content">
+            <div class="logo">
+                <a href="#">Evo Eatery.</a>
+            </div>
+            <ul class="menu-list">
+                <div class="icon cancel-btn">
+                    <i class="fas fa-times"></i>
+                </div>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">menu</a></li>
+                <li><a href="#">locations</a></li>
+                <li><a href="#">reserve</a></li>
+                <li><a href="#">sign in</a></li>
+            </ul>
+            <div class="icon menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Background -->
+    <div class="banner2"></div>
+
+    <div class="container-form">
+        <div class="title">Contact us</div>
+        <div class="content">
+        <form action="#">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Full name</span>
+                    <input type="text" placeholder="Full name*" name="name" id="name" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Email</span>
+                    <input type="email" placeholder="Email*" name="email" id="email" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Phone number</span>
+                    <input type="tel" placeholder="Phone number*" name="phone" id="phone" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Inquiry</span>
+                    <select name="reason" id="reason" required>
+                        <option value="" disabled selected="selected">Reason for inquiry*</option>
+                        <option value="general">General inquiry.</option>
+                        <option value="press">Press inquiry.</option>
+                    </select>
+                </div>
+                <div class="input-box">
+                    <span class="details">Message</span>
+                    <textarea name="message" id="message" placeholder="Your message*" style="resize: vertical; width:100%;" required></textarea>
+                </div>
+            </div>
+            <button value="register">Submit.</button>
+        </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">affiliate program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
