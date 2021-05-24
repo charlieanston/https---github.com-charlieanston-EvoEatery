@@ -53,9 +53,8 @@ body{
 
 .user-container{
     display: grid;
-    gap: 1rem;
 
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
 
 }
 .user-container h2{
@@ -71,12 +70,19 @@ body{
     background: darkcyan;
     color: ivory;
     overflow: hidden;
-    height: 83vh;
+    height: 70vh;
 }
 .profile-pic{
     width: 160px;
     height: 160px;
     border-radius: 50%;
+    object-fit: cover;
+    box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+}
+.res-pic{
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
     object-fit: cover;
     box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
 }
@@ -89,4 +95,5 @@ body{
     background: ivory;
     color: #1C2C59;
     overflow: hidden;
+    height: 70vh;
 }
