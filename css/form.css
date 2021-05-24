@@ -57,7 +57,7 @@ form .user-details .input-box{
     width: 400px;
 }
 form .input-box span.details{
-    color: #1C2C59;
+    color: tomato;
     display: block;
     margin-bottom: 5px;
 }
@@ -95,7 +95,6 @@ button{
         width: 100%;
     }
     .content form .user-details{
-        max-height: 300px;
         overflow-y: scroll;
     }
     .user-details::-webkit-scrollbar{
