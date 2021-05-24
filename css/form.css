@@ -13,6 +13,7 @@ body{
     background-position: center;
     background-attachment: fixed;
 }
+/* Container */
 .container-form{
     width: 80%;
     background-color: ivory;
@@ -45,6 +46,24 @@ body{
     justify-content: center;
     margin: 20px 0 12px 0;
 }
+.special li{
+    list-style: none;
+}
+.special li a{
+    color: #1C2C59;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 25px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+.special li a:hover{
+    cursor: pointer;
+    color: tomato;
+}
+
 form .user-details .input-box{
     margin: 15px;
     width: 400px;
