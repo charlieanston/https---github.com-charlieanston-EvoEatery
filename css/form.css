@@ -13,6 +13,14 @@ body{
     background-position: center;
     background-attachment: fixed;
 }
+.admin{
+    justify-content: center;
+    align-items: center;
+    background: url("/img/bg4.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
 /* Container */
 .container-form{
     width: 80%;

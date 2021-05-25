@@ -26,31 +26,6 @@ body{
     background: #1C2C59;
 }
 
-.card{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: #353535;
-    font-size: 38px;
-    color: ivory;
-    box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
-    height: 100%;
-    width: 100%;
-    border-radius: 4px;
-    transition: all .5s;
-    overflow: hidden;
-
-    /* background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; */
-}
-
-.card:hover{
-    box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
-    transform: translateY(-3px) scale(1.1);
-}
-
 .user-container{
     display: grid;
 
@@ -67,7 +42,7 @@ body{
     justify-content: center;
     float: left;
     align-items: center;
-    background: darkcyan;
+    background: tomato;
     color: ivory;
     overflow: hidden;
     height: 70vh;
