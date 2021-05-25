@@ -110,14 +110,14 @@ p{
     background-attachment: fixed;
 }
 .banner3{
-    background: url("/img/bg5.jpg") no-repeat;
+    background: url("https://raw.githubusercontent.com/charlieanston/https---github.com-charlieanston-EvoEatery/master/img/bg5.jpg") no-repeat;
     height: 100vh; /* 17vh */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 .banner4{
-    background: url("/img/bg4.jpg") no-repeat;
+    background: url("https://raw.githubusercontent.com/charlieanston/https---github.com-charlieanston-EvoEatery/master/img/bg4.jpg") no-repeat;
     height: 20vh; /* 17vh */
     background-size: cover;
     background-position: center;
