@@ -49,7 +49,36 @@ body{
 .special li{
     list-style: none;
 }
+.content h2{
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: underline;
+    color: red;
+    font-size: 20px;
+}
+.content img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+}
+.content p{
+    color: #1C2C59;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.content button{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
 .special li a{
+    display: flex;
+    justify-content: center;
     color: #1C2C59;
     font-weight: bold;
     font-size: 16px;
@@ -103,9 +132,11 @@ form .input-box span.details{
 }
 
 button{
+    display: flex;
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 25%;
 }
 
 @media(max-width: 584px){
